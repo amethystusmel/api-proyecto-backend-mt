@@ -16,10 +16,10 @@ app.use('/api/v1/candidates', candidateRoutes);
 app.use('/api/v1/jobs', jobRoutes);
 
 app.get('/', (req, res) => {
-  res.json({ message: '🚀 API funcionando correctamente', version: 'v1' });
+  res.json({ message: 'API funcionando correctamente', version: 'v1' });
 });
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(`🚀 Servidor corriendo en http://localhost:${PORT}`);
+  console.log(`Servidor corriendo en http://localhost:${PORT}`);
 });
