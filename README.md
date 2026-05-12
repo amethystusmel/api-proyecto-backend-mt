@@ -37,7 +37,7 @@ src/
 └── index.js              # Punto de entrada
 ```
 
-## ⚙️ Variables de entorno
+## Variables de entorno
 
 Crea un archivo `.env` basado en `.env.example`:
 
